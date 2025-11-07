@@ -1,6 +1,8 @@
 pipeline {
   agent any
-  environment { VIRTUAL_ENV = 'venv' }
+  environment { VIRTUAL_ENV = 'venv' 
+  
+  PY = 'C:\\Python314\\python.exe'}
 
   stages {
     stage('Setup') {
